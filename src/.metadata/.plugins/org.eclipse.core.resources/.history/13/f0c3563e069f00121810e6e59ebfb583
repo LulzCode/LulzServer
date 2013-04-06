@@ -1,0 +1,13 @@
+package lulzcode.files;
+
+import java.util.ArrayList;
+
+public class FileManager {
+
+	public static ArrayList<LulzFile> files = new ArrayList<LulzFile>();
+	
+	public void loadFile(String file){
+		
+	}
+	
+}

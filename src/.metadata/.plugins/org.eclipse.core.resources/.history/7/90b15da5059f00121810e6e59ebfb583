@@ -1,0 +1,33 @@
+package lulzcode.files;
+
+import java.util.ArrayList;
+
+public class LulzFile {
+	
+	private ArrayList<String> contents;
+	private File file;
+	
+	public LulzFile(){
+		contents = null;
+		file = null;
+		
+	}
+	
+	public LulzFile(ArrayList<String> readFile){
+		file = readFile;
+	}
+	
+	public ArrayList<String> read(){
+		
+		return null;
+	}
+	
+	public void update(ArrayList<String> readFile){
+		file = readFile;
+	}
+	
+	public void getLocation(){
+		
+	}
+	
+}

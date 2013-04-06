@@ -1,0 +1,5 @@
+package lulzcode.files;
+
+public enum LulzFile {
+
+}

@@ -1,0 +1,46 @@
+package lulzcode.files;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+
+public class LulzFile {
+	
+	private ArrayList<String> contents;
+	private File file;
+	
+	public LulzFile(){
+		contents = null;
+		file = null;
+	}
+	
+	public LulzFile(File theFile, ArrayList<String> readFile){
+		contents = readFile;
+		file = theFile;
+	}
+	
+	public ArrayList<String> read(){
+		ArrayList<String> tempArray = new ArrayList<String>();
+		try{
+			FileReader fr = new FileReader(file.getAbsolutePath());
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		contents = tempArray;
+		return tempArray;
+	}
+	
+	public ArrayList<String> get(){
+		return contents;
+	}
+	
+	public void update(ArrayList<String> readFile){
+		contents = readFile;
+	}
+	
+	public String getLocation(){
+		return file.getAbsolutePath();
+	}
+	
+}

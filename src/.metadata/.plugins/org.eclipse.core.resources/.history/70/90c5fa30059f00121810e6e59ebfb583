@@ -1,0 +1,13 @@
+package lulzcode.files;
+
+import java.util.ArrayList;
+
+public class LulzFile {
+	
+	private final ArrayList<String> file;
+	
+	public LulzFile(){
+		file = null;
+	}
+	
+}

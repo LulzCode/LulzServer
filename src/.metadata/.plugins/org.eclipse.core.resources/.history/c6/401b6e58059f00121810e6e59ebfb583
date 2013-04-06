@@ -1,0 +1,7 @@
+package lulzcode.files;
+
+public class FileManager {
+
+	public static ArrayList<LulzFile> files = new ArrayList<LulzFile>();
+	
+}
