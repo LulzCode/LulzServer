@@ -1,16 +1,21 @@
 *.class
-runtime
-src/minecraft_server/world
+runtime/
+src/minecraft_server/world/
 src/minecraft_server/server.properties
 src/minecraft_server/white-list.txt
 src/minecraft_server/banned-ips.txt
 src/minecraft_server/banned-players.txt
 src/minecraft_server/server.txt
 src/minecraft_server/ops.txt
-src/.metadata
-jars
-reobf
-temp
+src/.metadata/
+src/metadata/
+src/.metadata/.plugins/
+jars/
+reobf/
+temp/
+*.index
+*.html
+*.history
 
 #################
 ## Eclipse
