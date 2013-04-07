@@ -4,8 +4,18 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import lulzcode.LulzCheat;
+
 public abstract class EntityPlayer extends EntityLiving implements ICommandSender
 {
+	
+	/**
+	 * LulzCode's variables start here
+	 */
+	private LulzCheat lulzCheat = null;
+	private long lastCheck;
+	public boolean wasInCreative;
+	
     /** Inventory of the player */
     public InventoryPlayer inventory = new InventoryPlayer(this);
     private InventoryEnderChest theInventoryEnderChest = new InventoryEnderChest();
@@ -286,6 +296,18 @@ public abstract class EntityPlayer extends EntityLiving implements ICommandSende
         {
             this.foodStats.onUpdate(this);
         }
+        /** This updates the LulzCheat checks, with a timer to only do it every X(ms) as to not spam, only runs any checks if the player is not in creative mode */
+        if(!this.capabilities.isCreativeMode){
+	        if(lulzCheat == null) lulzCheat = new LulzCheat(this);
+	        if(System.currentTimeMillis() > (lastCheck + 75) && (this.ticksExisted > 5)){
+	        	lulzCheat.doCheck();
+	        	lastCheck = System.currentTimeMillis();
+	        }
+	        else if(this.ticksExisted < 5)
+	        	lulzCheat.player.update(true);
+	        lulzCheat.player.updateUrgent();
+        }
+        else wasInCreative = true;
     }
 
     /**

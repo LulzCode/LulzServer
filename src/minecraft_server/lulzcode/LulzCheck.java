@@ -1,9 +1,8 @@
 package lulzcode;
 
-import net.minecraft.src.EntityPlayer;
-
 interface LulzCheck {
 	
-	public abstract void handleCheck(EntityPlayer player);
+	/** This is required for all checks, this ensures that each check gets run during player update */
+	public abstract void handleCheck(LulzPlayer l);
 	
 }
