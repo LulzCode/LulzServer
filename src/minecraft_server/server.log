@@ -15,3 +15,50 @@
 2013-04-06 13:25:13 [INFO] Preparing spawn area: 77%
 2013-04-06 13:25:14 [INFO] Preparing spawn area: 95%
 2013-04-06 13:25:14 [INFO] Done (5.483s)! For help, type "help" or "?"
+2013-04-06 18:41:26 [INFO] Starting minecraft server version 1.5.1
+2013-04-06 18:41:26 [INFO] Loading properties
+2013-04-06 18:41:26 [INFO] Default game type: SURVIVAL
+2013-04-06 18:41:26 [INFO] Generating keypair
+2013-04-06 18:41:27 [INFO] Starting Minecraft server on *:25565
+2013-04-06 18:41:27 [INFO] Preparing level "world"
+2013-04-06 18:41:27 [WARNING] Unable to find spawn biome
+2013-04-06 18:41:27 [INFO] Preparing start region for level 0
+2013-04-06 18:41:28 [INFO] Preparing spawn area: 18%
+2013-04-06 18:41:29 [INFO] Preparing spawn area: 40%
+2013-04-06 18:41:30 [INFO] Preparing spawn area: 62%
+2013-04-06 18:41:31 [INFO] Preparing spawn area: 83%
+2013-04-06 18:41:32 [INFO] Done (5.350s)! For help, type "help" or "?"
+2013-04-06 18:41:35 [INFO] TechnoReject[/192.168.1.69:1196] logged in with entity id 200 at (-16.5, 67.0, -78.5)
+2013-04-06 18:41:38 [INFO] <TechnoReject> hahahha
+2013-04-06 18:41:39 [INFO] <TechnoReject> lulz
+2013-04-06 18:41:41 [INFO] <TechnoReject> Lulz
+2013-04-06 18:41:45 [INFO] <TechnoReject> Lulz
+2013-04-06 18:41:47 [INFO] <TechnoReject> Lulz
+2013-04-06 18:41:48 [INFO] TechnoReject lost connection: disconnect.quitting
+2013-04-06 18:41:50 [INFO] Stopping server
+2013-04-06 18:41:50 [INFO] Saving players
+2013-04-06 18:41:50 [INFO] Saving worlds
+2013-04-06 18:41:50 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-06 18:41:50 [INFO] Closing listening thread
+2013-04-06 18:41:50 [INFO] Saving chunks for level 'world'/Nether
+2013-04-06 18:41:50 [INFO] Saving chunks for level 'world'/The End
+2013-04-06 18:41:51 [INFO] Stopping server
+2013-04-06 18:41:53 [INFO] Starting minecraft server version 1.5.1
+2013-04-06 18:41:53 [INFO] Loading properties
+2013-04-06 18:41:53 [INFO] Default game type: SURVIVAL
+2013-04-06 18:41:53 [INFO] Generating keypair
+2013-04-06 18:41:53 [INFO] Starting Minecraft server on *:25565
+2013-04-06 18:41:53 [INFO] Preparing level "world"
+2013-04-06 18:41:53 [INFO] Preparing start region for level 0
+2013-04-06 18:41:54 [INFO] Done (1.034s)! For help, type "help" or "?"
+2013-04-06 18:41:56 [INFO] TechnoReject[/192.168.1.69:1203] logged in with entity id 1300 at (-8.089800533790486, 68.0, -86.01877970316384)
+2013-04-06 18:41:57 [INFO] <TechnoReject> Lulz
+2013-04-06 18:42:00 [INFO] TechnoReject lost connection: disconnect.quitting
+2013-04-06 18:42:01 [INFO] Stopping server
+2013-04-06 18:42:01 [INFO] Saving players
+2013-04-06 18:42:01 [INFO] Saving worlds
+2013-04-06 18:42:01 [INFO] Saving chunks for level 'world'/Overworld
+2013-04-06 18:42:01 [INFO] Closing listening thread
+2013-04-06 18:42:01 [INFO] Saving chunks for level 'world'/Nether
+2013-04-06 18:42:01 [INFO] Saving chunks for level 'world'/The End
+2013-04-06 18:42:02 [INFO] Stopping server

@@ -190,7 +190,7 @@ public class NetServerHandler extends NetHandler
                 }
 
                 if (this.playerEntity.isPlayerSleeping())
-                {LOL
+                {
                     this.playerEntity.onUpdateEntity();
                     this.playerEntity.setPositionAndRotation(this.lastPosX, this.lastPosY, this.lastPosZ, this.playerEntity.rotationYaw, this.playerEntity.rotationPitch);
                     var2.updateEntity(this.playerEntity);
